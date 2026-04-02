@@ -1,7 +1,5 @@
 {
   "rewrites": [
-    { "source": "/api/docx", "destination": "/api/docx" },
-    { "source": "/api/docx-auteur", "destination": "/api/docx-auteur" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
   ]
 }
