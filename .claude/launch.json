@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "promptbieb-dev",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["--prefix", "C:/Claude Code/Custom CLI/promptbieb-vercel", "vite", "--port", "4000"],
+      "port": 4000
+    }
+  ]
+}
