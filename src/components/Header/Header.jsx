@@ -124,7 +124,7 @@ export function Header({
                 |{" "}
               </span>
               <a
-                href="https://robertspromptbibliotheek-v2.created.app/"
+                href="https://robertspromptbibliotheek.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -143,7 +143,7 @@ export function Header({
                 {" / "}
               </span>
               <a
-                href="https://robertsdigitaletoolbox.created.app/"
+                href="https://robertsdigitaletoolbox.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -162,7 +162,7 @@ export function Header({
                 {" / "}
               </span>
               <a
-                href="https://robertswerkvormen.created.app/"
+                href="https://robertswerkvormen.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
