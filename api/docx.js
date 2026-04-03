@@ -16,7 +16,8 @@ export default async function handler(req) {
       );
     }
 
-    return new Response(await response.arrayBuffer(), {
+    // Stream the response body directly instead of buffering
+    return new Response(response.body, {
       status: 200,
       headers: {
         "Content-Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
